@@ -96,3 +96,13 @@ class RegularExpressionPractice:
         if result == None:
             return None
         return result.group()
+    
+    def get_characters_does_not_match_with_vowel(self, text):
+        #
+        # O padrão [^aeiou] corresponde a qualquer caractere que não seja uma vogal
+        consonant_regex = re.compile(r'[^aeiou]')
+        result = consonant_regex.findall(text)
+        if result == None:
+            return None
+        return result
+    
