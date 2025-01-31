@@ -1,5 +1,5 @@
-from information_extractor import InformationExtractor
-from regular_expression_practice import RegularExpressionPractice
+from regular_expression.information_extractor import InformationExtractor
+from regular_expression.regular_expression_practice import RegularExpressionPractice
 
 # regular = RegularExpressionPractice()
 # print(regular.is_phone_number('334-847-9488'))

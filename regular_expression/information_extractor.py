@@ -1,6 +1,6 @@
 import pyperclip # type: ignore
-from phone_number_extractor import PhoneNumberExtractor
-from email_extractor import EmailExtractor
+from regular_expression.phone_number_extractor import PhoneNumberExtractor
+from regular_expression.email_extractor import EmailExtractor
 
 # A lib pyperclip tem a função de copiar e colar textos no clipboard do sistema operacional
 # O método paste() retorna o texto que está no clipboard
